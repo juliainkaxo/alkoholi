@@ -4,7 +4,7 @@ import axios from 'axios'
 import { ThemeProvider } from 'styled-components';
 import {darkTheme, lightTheme} from './theme';
 import { GlobalStyles } from './global';
-
+// lopullinen versio
 const URL = 'https://www.thecocktaildb.com/api/json/v1/1/random.php';
 
 export default function App() {
